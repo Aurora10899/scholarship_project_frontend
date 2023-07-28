@@ -19,7 +19,7 @@ const NationalResult = ({ nationals }) => {
                     </div>
                 ))}
                 <div className="scholarshipNoResult">
-                    {nationals.length === 0 && <h2 className="noResult">No scholarships found.</h2>}
+                    {nationals.length === 0 && <h2 className="NoResult">No scholarships found.</h2>}
                 </div>
 
             </div>

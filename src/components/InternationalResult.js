@@ -2,9 +2,9 @@ import React from 'react'
 import "../css/Result.css"
 import info from "../images/info.png"
 
-const InternationalResult = ({internationals}) => {
+const InternationalResult = ({ internationals }) => {
   return (
-    
+
     <div className="scholarshipListContainer">
       {internationals.map((international) => (
         <div key={international._id} className="scholarshipCard">
@@ -15,7 +15,7 @@ const InternationalResult = ({internationals}) => {
           <a href={international.iwebsites} target="_blank" rel="noopener noreferrer"><img src={info} alt="more about" /></a>
         </div>
       ))}
-      {internationals.length === 0 && <h3 className="NoResult">No scholarships found.</h3>}
+      {internationals.length === 0 && <h2 className="NoResult">No scholarships found.</h2>}
     </div>
   )
 }
