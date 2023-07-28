@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-image: url("../images/animelib.png");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+body::-webkit-scrollbar {
+    width: .5vw;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(27, 27, 27, 0.333);
+    border-radius: 100px;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #161212;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #5555;
+  }
+  
+  body::-webkit-scrollbar-track:hover {
+    background-color: #d3d3d3;
+  }
