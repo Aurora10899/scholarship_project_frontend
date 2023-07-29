@@ -6,6 +6,7 @@ import "./css/style.css"
 import NationalSearch from "./components/NationalSearch";
 import InternationalSearch from "./components/InternationalSearch"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MessageUs from "./components/MessageUs";
 
 const App = () => {
 
@@ -17,9 +18,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/nationalScholarship" element={<NationalSearch />} />
           <Route path="/internationalScholarship" element={<InternationalSearch />} />
-          <Route path="/messageUs" element={<div className="test-class">
-            Hello Oral
-          </div>} />
+          <Route path="/messageUs" element={<MessageUs />} />
         </Routes>
       </BrowserRouter>
       <Footer />

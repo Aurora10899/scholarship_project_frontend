@@ -2,33 +2,32 @@
 div.scholarshipListContainer {
     display: flex;
     flex-direction: column;
-    /* width: fit-content;
-    max-width: fit-content; */
     justify-content: center;
     align-items: center;
 }
 
 .scholarshipCard {
-    box-shadow: 5px 5px #22252b;
+    box-shadow: 3px 3px #3a2b47;
     width: 90%;
     display: flexbox;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 15px;
-    background-color: #f7eeff;
-    transition: width 0.25s;
+    background-color: #ebe2f3;
+    transition: width 0.15s;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
 }
 
 .scholarshipCard h3 {
     margin-bottom: 10px;
-    text-shadow: 1px 1px black;
+    text-shadow: .5px .5px black;
 }
 
 .scholarshipCard p {
     margin-bottom: 10px;
     padding: 5px 5px 5px 0;
+    font-weight: 600;
 }
 
 .scholarshipCard a {
@@ -41,9 +40,8 @@ div.scholarshipListContainer {
 }
 
 .scholarshipCard:hover {
-    background-color: white;
+    background-color: #cab9d7;
     width: 92%;
-    /* padding-right: 2%; */
 }
 
 .noResult {

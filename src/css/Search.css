@@ -2,6 +2,7 @@
 .container {
     margin: 2em;
     min-height: 85vh;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .heading {
@@ -25,9 +26,10 @@
     height: 30px;
     color: #2e254f;
     padding: 10px 15px;
-    background-color: #ab99e7;
-    box-shadow: 5px 5px #22252b;
+    background-color: #beb1eb;
+    box-shadow: 2px 2px #5a4d86;
     border-radius: 5px;
+    border:none;
     font-size: 15px;
     outline: none;
     transition: border-color 0.2s ease-in-out;
@@ -35,19 +37,17 @@
 
 .searchContainer input::placeholder{
     color:#2e254f;
-    opacity: 10;
+    opacity: 5;
 }
 
 
 .searchContainer input:hover {
-    border-color: #A5D7E8;
-    background-color: whitesmoke;
+    background-color: #ab99e7;
     color: black;
     /* Change border color when .searchContainer input is focused */
 }
 
 .searchContainer input:focus {
-    border-color: #A5D7E8;
     background-color: whitesmoke;
     color: black;
     /* Change border color when .searchContainer input is focused */
@@ -66,8 +66,8 @@
     padding-bottom: 10px;
     display: flex;
     flex-direction: column;
-    background-color: #716596;
-    box-shadow: 3px 3px #09111f;
+    background-color: #a48fc7;
+    box-shadow: 2px 2px rgb(41, 32, 68);
     align-self: flex-start;
     border-radius: 5px;
     justify-content: space-around;
@@ -77,9 +77,8 @@
     display: flex;
     padding: 2px;
     justify-content: left;
-    text-shadow: 1px 1px black;
     margin: 5px 0 5px 10%;
-    color: #28213a;
+    color: #130728;
     font-size: 16px;
 }
 
@@ -91,15 +90,11 @@
     margin: 0 10% 20px 10%;
     border-radius: 6px;
     box-shadow: 2px #2b2244;
-    background-color: #EEEEEE;
-    color: #222831;
+    background-color: #ebe2f3;
+    color: #000000;
     width: 80%;
+    font-size: 13px;
     /* Adjust width as needed */
-}
-
-.filterContainer select:hover {
-    color: #222831;
-
 }
 
 .resultContainer {
@@ -114,7 +109,7 @@
 }
 
 .resultContainer::-webkit-scrollbar-thumb {
-    background-color: #7865ae;
+    background-color: #d7d2e4;
     border-radius: 100px;
 }
 
@@ -143,7 +138,7 @@
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 950px) {
     .filterContainer {
         margin-bottom: 25px;
         flex-basis: 100%;

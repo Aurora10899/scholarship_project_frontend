@@ -1,0 +1,101 @@
+.message-container {
+    all: none;
+    width: 100%;
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.message-card {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.message-card h3 {
+    margin-bottom: 30px;
+}
+
+.message-card h2{
+    font-size: 30px;
+    text-shadow: 1px 1px #1e0b3d;
+}
+
+.message-card form {
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#a48fc7 ;
+    border-radius: 5px;
+}
+
+
+
+.message-card form button{
+    width:15%;
+    min-height: 50px;
+    background-color: #1f0f38;
+    border-radius: 5px;
+    color: #cfbaf2;
+    font-size: 15px;
+}
+
+.message-card form button:hover{
+    width:15%;
+    min-height: 50px;
+    background-color: #ebe2f3;
+    border-radius: 5px;
+    color: #1e0b3d;
+    font-size: 15px;
+}
+
+
+.message-card h2{
+    margin:20px;
+    padding: 20px;
+}
+
+.details {
+    width: 80%;
+    display: flex;
+    margin: 20px;
+
+}
+
+.details input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+    background-color: #ebe2f3;
+}
+
+.nameBox {
+    height: 40px;
+}
+
+.emailBox {
+    height: 40px;
+}
+
+.messageBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.messageBox textarea {
+    min-height: 200px;
+    resize: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ebe2f3
+}

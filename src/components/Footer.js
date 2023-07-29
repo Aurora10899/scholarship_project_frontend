@@ -33,7 +33,7 @@ const Footer = () => {
             <p>+91 94335 48642</p>
             <p>aniketpal621@gmail.com</p>
             <br />
-            <p>+91 7003048163</p>
+            <p>+91 70030 48163</p>
             <p>aniketkolkata24@gmail.com</p>
             <br />
             <a href="/messageUs">MESSAGE US</a>

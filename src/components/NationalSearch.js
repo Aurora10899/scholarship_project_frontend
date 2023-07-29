@@ -46,7 +46,7 @@ const NationalSearch = () => {
     return (
         <div className="container">
             <div className="searchContainer">
-                <input type="text" onKeyUp={handleKeyUp} onChange={(e) => { setSearchQuery(e.target.value); handleSearch() }} placeholder="Search any National Scholarship......" />
+                <input type="text" value={searchQuery} onKeyUp={handleKeyUp} onChange={(e) => { setSearchQuery(e.target.value); handleSearch() }} placeholder="Search any National Scholarship......" />
             </div>
             <div className='filterResultContainer'>
                 <div className='filterContainer'>

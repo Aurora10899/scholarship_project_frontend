@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 14px;  
+  font-size: calc(7px + 0.5vw);  
 }
 
 .footer-content {
@@ -28,13 +28,16 @@
 
 .link-content{
   width:30%;
+  display: flexbox;
+  max-height: 100%;
+  padding: 20px;
 }
 
 .link-content-mid{
   width: 20%;
   display: flex;
   flex-direction:column;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .footer-links a {  
@@ -50,8 +53,8 @@
 
 .social-contacts a img{
   object-fit: cover;
-  width: 32px;
-  height: 32px;
+  max-width: 20px;
+  max-height: 20px;
 
 }
 
@@ -64,7 +67,31 @@
 
 @media screen and (max-width: 950px){
   .footer-container{
+    width: 100%;
     flex-direction: column;
-    font-size: 12px;
+    font-size: calc(5px + 0.5vw);
   }  
+  .footer-links{
+    flex-shrink: inherit;
+  }
+}
+
+@media screen and (max-height: 950px){
+  .footer-container{
+    width: 100%;
+    min-height: 200px;
+    flex-direction: column;
+    font-size: calc(5px + 0.5vw);
+  }  
+  .footer-links{
+    flex-shrink: inherit;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .footer-container{
+    width: 100%;
+    flex-direction: column;
+    font-size: calc(2px + 0.5vw);
+  }
 }

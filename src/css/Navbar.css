@@ -56,9 +56,10 @@
 
 
   /* Add responsive styles for mobile */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width:950px) {
     .navbar {
       flex-direction: column;
+      margin:0;
     }
   
     .nav-links {
