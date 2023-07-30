@@ -1,0 +1,48 @@
+{
+  "data_2": [
+    {
+      "title": "INSPIRE Scholarship",
+      "gender": "All",
+      "fieldOfStudy": "Science",
+      "educationLvl": [
+        "Undergraduate",
+        "Postgraduate"
+      ],
+      "caste": [
+        "General"
+      ],
+      "pwd": "All",
+      "description": "Offered by the Department of Science and Technology (DST), the INSPIRE Scholarship supports students who pursue bachelor's and master's degrees in natural and basic sciences. It provides financial assistance and opportunities for research internships.",
+      "website": "https://online-inspire.gov.in/"
+    },
+    {
+      "title": "Indian Council of Medical Research (ICMR) Junior Research Fellowship",
+      "gender": "All",
+      "fieldOfStudy": "Medical and Health Sciences",
+      "educationLvl": [
+        "Postgraduate",
+        "Ph.D"
+      ],
+      "caste": [
+        "General"
+      ],
+      "pwd": "All",
+      "description": "ICMR JRF provides financial support to postgraduate and Ph.D. students pursuing research in medical and health sciences.",
+      "website": "https://main.icmr.nic.in/"
+    },
+    {
+      "title": "ICAR National Talent Scholarship (NTS)",
+      "gender": "All",
+      "fieldOfStudy": "Agriculture and Allied Sciences",
+      "educationLvl": [
+        "Undergraduate"
+      ],
+      "caste": [
+        "General"
+      ],
+      "pwd": "All",
+      "description": "ICAR NTS is awarded to undergraduate students pursuing agriculture and allied sciences courses at recognized agricultural universities.",
+      "website": "https://www.icar.org.in/"
+    }
+  ]
+}

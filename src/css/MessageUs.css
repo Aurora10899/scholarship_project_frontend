@@ -1,5 +1,4 @@
 .message-container {
-    all: none;
     width: 100%;
     min-height: 65vh;
     display: flex;
@@ -42,6 +41,7 @@
 
 .message-card form button{
     width:15%;
+    min-width: 100px;
     min-height: 50px;
     background-color: #1f0f38;
     border-radius: 5px;
@@ -98,4 +98,10 @@
     padding: 5px;
     border-radius: 5px;
     background-color: #ebe2f3
+}
+
+@media screen and (max-width: 700px){
+    .message-card{
+        width: 100%;
+    }
 }

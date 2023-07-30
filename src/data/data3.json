@@ -1,0 +1,35 @@
+{
+  "data_3": [
+    {
+      "ititle": "Fulbright Foreign Student Program",
+      "icountry": "United States",
+      "ieducationLvl": [
+        "Postgraduate",
+        "Ph.D"
+      ],
+      "idescription": "The Fulbright Program are full scholarships for international students from 155 countries around the world who wants to pursue a Master’s or PhD degree in the US. The scholarships can also be awarded for non-degree postgraduate studies. The grant covers tuition fee, textbooks, airfare, a living stipend, and health insurance.",
+      "iwebsites": "https://foreign.fulbrightonline.org/"
+    },
+    {
+      "ititle": "Eiffel Scholarship",
+      "icountry": "France",
+      "ieducationLvl": [
+        "Postgraduate",
+        "Ph.D"
+      ],
+      "idescription": "The Eiffel Scholarship is awarded by the French Ministry for Europe and Foreign Affairs to outstanding international students who wish to pursue a Master's or Ph.D. program in France. The scholarship covers tuition fees, living expenses, and travel costs.",
+      "iwebsites": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence"
+    },
+    {
+      "ititle": "Japanese Government Monbukagakusho (MEXT) Scholarships",
+      "icountry": "Japan",
+      "ieducationLvl": [
+        "Undergraduate",
+        "Postgraduate",
+        "Ph.D"
+      ],
+      "idescription": "The Japanese Government Monbukagakusho (MEXT) Scholarships are offered to international students who want to study or conduct research in Japan. The scholarship covers tuition fees, travel expenses, and a monthly stipend.",
+      "iwebsites": "https://www.studyjapan.go.jp/en/index.html"
+    }
+  ]
+}

@@ -1,87 +1,68 @@
-@keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
+
+.homepage-container{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px solid black;
+  margin-bottom: 10px;
+  display:flexbox;
+  background-color: #a48fc7 ;
+  padding: 10px;
+}
+
+.scholarship-card-grid{
+  margin: 20px;
   
-  .portal-points {
-    padding: 15px;
+}
+
+.card-heading{
+  text-align: center;
+  padding: 20px;
+}
+
+.wbDetail{
+  display: grid;
+  grid-template-columns: auto auto ;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wbDetail-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    color: darkmagenta;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.wbDetail-card p{
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.wbDetail-card img{
+  width:150px;
+  height: 150px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 950px){
+  .wbDetail{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 700px){
+  .homepage-container{
+    width: 100%;
+    margin: 0;
+    flex-shrink: inherit;
   }
   
-  /* Apply the animation to the main content div */
-  .home-page {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  main {
-    margin: 0 15%;
-    animation: fadeIn 1s ease-in-out;
-  }
-  
-  .hero-section {
-    padding: 20px;
-    margin: 10 px20px;
-    background-color: whitesmoke;
-    border-radius: 8px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  .hero-section h1{
-      text-align: center;
-      font-size: 30px;
-      color: darkgreen;
-      font-weight: bold;
-  }
-  
-  .subtitle{
-      text-align: center;
-      font-size: 25px;
-      color:darkslateblue;
-      font-style: italic;
-      font-weight: bold;
-  }
-  
-  .subtitle-content{
-      text-align: center;
-      font-size: 20px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .hero-section h2{
-      text-align: center;
-      font-size: 27px;
-      color: darkgreen;
-      font-weight: bold;
-  }
-  
-  .hero-section h5{
-    padding: 15px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-  
-  }
-  
-  /* Add responsive styles for mobile */
-  @media screen and (max-width: 768px) {
-    main {
-      margin: 10px 0;
-    }
-  
-    .hero-section {
-      padding: 10px;
-    }
-  }
-  
-  
-    
+}

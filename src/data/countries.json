@@ -49,6 +49,8 @@
       { "name": "United Arab Emirates", "value": "united arab emirates" },
       { "name": "United Kingdom", "value": "united kingdom" },
       { "name": "United States", "value": "united states" },
+      { "name": "Various Countries", "value": "various countries"},
+      { "name": "Various Commonwealth Countries", "value": "various commonwealth countries"},
       { "name": "Vietnam", "value": "vietnam" }
     ]
   }

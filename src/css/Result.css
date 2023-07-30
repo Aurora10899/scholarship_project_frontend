@@ -56,8 +56,19 @@ div.scholarshipListContainer {
 
 
 /* Responsive Styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     .scholarshipListContainer {
         max-width: 100%;
     }
+    .scholarshipCard h3{
+        font-size: 17px;
+    }
+    .scholarshipCard p{
+        font-size: 14px;
+    }
+    .scholarshipCard a img{
+        width:14px;
+        height: 14px;
+    }
+
 }
