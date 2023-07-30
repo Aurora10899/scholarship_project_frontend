@@ -6,8 +6,9 @@
   border-radius: 5px solid black;
   margin-bottom: 10px;
   display:flexbox;
-  background-color: #a28fbe ;
+  background-color: #847796 ;
   padding: 10px;
+  border-radius: 20px;
 }
 
 .scholarship-card-grid{

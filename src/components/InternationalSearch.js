@@ -60,7 +60,7 @@ const InternationalSearch = () => {
                             <option value="High School">High School</option>
                             <option value="Undergraduate">Undergraduate</option>
                             <option value="Postgraduate">Postgraduate</option>
-                            <option value="Ph.D.">Ph.D.</option>
+                            <option value="PhD">PhD</option>
                         </select>
                     </div>
                 </div>
