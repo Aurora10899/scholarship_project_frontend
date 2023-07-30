@@ -6,7 +6,7 @@
   border-radius: 5px solid black;
   margin-bottom: 10px;
   display:flexbox;
-  background-color: #a48fc7 ;
+  background-color: #a28fbe ;
   padding: 10px;
 }
 
@@ -62,7 +62,6 @@
   .homepage-container{
     width: 100%;
     margin: 0;
-    flex-shrink: inherit;
   }
   
 }
